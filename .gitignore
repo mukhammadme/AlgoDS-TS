@@ -1,0 +1,16 @@
+# IDE
+.vscode
+.idea
+
+# Binary files
+bin
+*.bin
+out
+*.out
+
+# Logs
+logs
+*.log
+
+# Node Modules
+node_modules
