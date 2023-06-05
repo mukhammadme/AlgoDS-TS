@@ -63,7 +63,7 @@
     - charCount("aaaa") => {a:4}
     - charCount("hello") => {h:1, e:1, l:2, o:1}
 > 2. Progress to more complex examples
-     - charCount("my phone number is 182763") => what about spaces and numbers?
+    - charCount("my phone number is 182763") => what about spaces and numbers?
     - charCount("Hello hi") What about (upper/lower)casing?
 > 3. Explore examples with Empty inputs
     - charCount("") => What should be returned?
@@ -100,6 +100,8 @@ _This forces you to think about the code you'll write before you write it, and h
       y: 1
     }
 >
+> 1) Less details
+> 
 > ``` code
 > charCount(str) {
 >    // do something
@@ -108,6 +110,8 @@ _This forces you to think about the code you'll write before you write it, and h
 > }
 > ```
 >
+> 2) More details
+> 
 >``` code
 > charCount(str) {
 >    // make object to return at end
